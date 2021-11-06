@@ -1,2 +1,7 @@
 .sass-cache
 config.rb
+__pycache__
+settings.ini
+env/
+bourbon/
+neat/

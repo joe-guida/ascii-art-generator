@@ -1,0 +1,26 @@
+@import 'bourbon/bourbon';
+@import 'neat/neat';
+
+@import '_colors';
+
+$neat-grid: (
+    columns: 12,
+    gutter: 1rem
+);
+
+body {
+    background-color: $backgroundColor;
+}
+
+div {
+    border-color: $borderColor;
+}
+
+.border {
+    color: $borderColor;
+    font-size: 4vw;
+}
+
+nav {
+    @include grid-column(12);
+}

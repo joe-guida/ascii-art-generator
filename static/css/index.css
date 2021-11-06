@@ -1,0 +1,22 @@
+/* line 11, ../sass/index.scss */
+body {
+  background-color: #020228;
+}
+
+/* line 15, ../sass/index.scss */
+div {
+  border-color: #40415c;
+}
+
+/* line 19, ../sass/index.scss */
+.border {
+  color: #40415c;
+  font-size: 4vw;
+}
+
+/* line 24, ../sass/index.scss */
+nav {
+  width: calc(100% - 2rem);
+  float: left;
+  margin-left: 1rem;
+}
